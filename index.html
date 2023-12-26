@@ -1,61 +1,77 @@
-<html> 
-    <head> 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <title></title>
+<html lang="fr" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=firefox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mise en place Clé de support (Debian 11) </title>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-                integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js"></script>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
+<br>
+<p align="center">
+  </p><h2 align="center">Learn Info</h2>
+  <p align="center">
+    Fait dans le but de donner les clés d'apprentissage des systèmes informatiques à une amie
+    <br>
+    <br>
+  </p>
+<p></p>
 
-        <style type="text/css">
-            body {
-                margin: 0px;
-                padding: 0px;
-                text-align: left;
-            }
-            #display_content {
-                margin-left: 0px;
-                margin-right: auto;
-                text-align: left;
-                width: 720px;
-            }
-        </style>
+<h2 id="sommaire">Sommaire</h2>
+<ul>
+<li><a href="#Pour-Commencer">Pour Commencer</a><ul>
+<li><a href="#Pr%C3%A9requis">Prérequis</a></li>
+<li><a href="#Utilisation">Utilisation</a></li>
+</ul>
+</li>
+<li><a href="#Contribuer">Contribuer</a></li>
+<li><a href="#License">License</a></li>
+<li><a href="#Autheurs">Autheurs</a></li>
+<li><a href="#Liste-des-Projets">Liste des Projets</a></li>
+<li><a href="#Roadmap">Roadmap</a></li>
+</ul>
+<h2 id="pour-commencer">Pour Commencer</h2>
+<p>Il faut comprendre que ce qui va suivre dépends d'une préparation en amont, remplacez la suite par l'aquisition d'un ordinateur assez puissant (surtout avec beaucoup de RAM). Ici la préparation est faite avec l'aide d'un portable 16Go de RAM et une box internet qui forward le port RDP.</p>
+<h3 id="prérequis">Prérequis</h3>
+<ul>
+<li>Un ordinateur portable utilisable</li>
+<li>Un ordinateur assez puissant avec un RDP (Remote Desktop) configuré</li>
+</ul>
+<h3 id="utilisation">Utilisation</h3>
+<ol>
+<li>Se connecter à internet</li>
+<li>Lancer le logiciel "Remote Desktop Connection" ou "Connexion Bureau à Distance"
+<br><img alt="Remote Desktop Connection en" src="https://github.com/Nikki-Devil/LearnInfo/blob/main/Img/RDP_en.png?raw=true">
+<br><img alt="Connexion Bureau à Distance fr" src="https://github.com/Nikki-Devil/LearnInfo/blob/main/Img/RDP_fr.png?raw=true"></li>
+<li>Remplir le champ "Ordinateur"/"Computer" avec l'adresse IP ou l'URL de l'ordinateur distant puis faites "Connect"/"Connexion"
+<br><img alt="Remote Desktop Connection connect" src="https://github.com/Nikki-Devil/LearnInfo/blob/main/Img/RDP_connect.png?raw=true"></li>
+<li>Remplissez le champ "Nom d'utilisateur"/"User name" avec le nom d'utilisateur de l'ordinateur distant et le champ "Mot de passe"/"Password" avec le mot de passe de l'ordinateur distant, notez que vous pouvez enregistrer ces informations en cliquant sur "Enregistrer les informations d'identification"/"Save credentials"
+<br><img alt="Connexion Bureau à Distance cred" src="https://github.com/Nikki-Devil/LearnInfo/blob/main/Img/RDP_cred.png?raw=true"></li>
+<li>Vous êtes maintenant connecté à l'ordinateur distant</li>
+</ol>
+<h2 id="contribuer">Contribuer</h2>
+<ul>
+<li>Si vous avez des suggestions pour ajouter ou supprimer des projets, n'hésitez pas à <a href="https://github.com/Nikki-Devil/LearnInfo/issues">Issues</a> pour en discuter, ou créez directement un pull request après avoir édité le fichier <em>README.md</em> avec les changements nécessaires.</li>
+<li>Créer un PR individuel pour chaque suggestion.</li>
+</ul>
+<h2 id="license">License</h2>
+<p>Distribué sous la license WTFPL. Voir <a href="http://www.wtfpl.net/about/">WTFPL</a> pour plus d'information.</p>
+<h2 id="autheurs">Autheurs</h2>
+<ul>
+<li><a href="https://github.com/Nikki-Devil/">Nikki Devil</a></li>
+</ul>
+<h2 id="liste-des-projets">Liste des Projets</h2>
+<ul>
+<li><a href="/MachineVirtuelle/README.md">Machine Virtuelle</a></li>
+<li><a href="/Windows/README.md">Installation de Windows</a></li>
+</ul>
+<h2 id="roadmap">Roadmap</h2>
+<ul>
+<li><a href="/MachineVirtuelle/README.md">Machine Virtuelle</a></li>
+<li><a href="/Windows/README.md">Installation de Windows</a></li>
+<li><a href="/Reseau/README.md">Cours de réseau</a></li>
+<li><a href="/Securite/README.md">Cours de sécurité</a></li>
+</ul>
 
-        <script> 
-            $(function(){
-                // Load `README.md` and show
-                $("#included_content").load("READMEtest.md", function(data) {
-                    marked.setOptions({
-                        gfm: true,
-                        tables: true,
-                        breaks: false,
-                        pedantic: false,
-                        sanitize: true,
-                        smartLists: true,
-                        smartypants: false,
-                        langPrefix: '',
-                        highlight: function(code, lang) {
-                            return code;
-                        }
-                    });
-                    var html_str = marked(data);
-                    $("#display_content").html(html_str);
-
-                    // Apply highlight.js again
-                    hljs.initHighlighting.called = false;
-                    hljs.initHighlighting();
-                }); 
-            });
-        </script> 
-    </head> 
-    <body> 
-        <div id="included_content" style="display:none"></div>
-        <div id="display_content"></div>
-    </body> 
 </html>
