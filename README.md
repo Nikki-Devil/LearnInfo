@@ -21,7 +21,7 @@
 
 ## Pour Commencer
 
-Il faut comprendre que ce qui va suivre dépends d'une préparation en amont, remplacez la suite par l'aquisition d'un ordinateur assez puissant (surtout avec beaucoup de RAM). Ici la préparation est faite avec l'aide d'un portable 16Go de RAM et une box internet qui forward le port RDP.
+Il faut comprendre que ce qui va suivre dépends d'une préparation en amont, remplacez la suite par l'aquisition d'un ordinateur assez puissant (surtout avec beaucoup de RAM). Ici la préparation est faite avec l'aide d'un portable 16Go de RAM sous Windows 10 Pro et une box internet qui forward le port RDP.
 
 ### Prérequis
 
@@ -36,7 +36,7 @@ Il faut comprendre que ce qui va suivre dépends d'une préparation en amont, re
 </br>![Connexion Bureau à Distance fr](https://github.com/Nikki-Devil/LearnInfo/blob/main/Img/RDP_fr.png?raw=true)
 3. Remplir le champ "Ordinateur"/"Computer" avec l'adresse IP ou l'URL de l'ordinateur distant puis faites "Connect"/"Connexion"
 </br>![Remote Desktop Connection connect](https://github.com/Nikki-Devil/LearnInfo/blob/main/Img/RDP_connect.png?raw=true)
-4. Remplissez le champ "Nom d'utilisateur"/"User name" avec le nom d'utilisateur de l'ordinateur distant et le champ "Mot de passe"/"Password" avec le mot de passe de l'ordinateur distant, notez que vous pouvez enregistrer ces informations en cliquant sur "Enregistrer les informations d'identification"/"Save credentials"
+4. Remplir le champ "Nom d'utilisateur"/"User name" avec le nom d'utilisateur de l'ordinateur distant et le champ "Mot de passe"/"Password" avec le mot de passe de l'ordinateur distant, notez que vous pouvez enregistrer ces informations en cliquant sur "Enregistrer les informations d'identification"/"Save credentials"
 </br>![Connexion Bureau à Distance cred](https://github.com/Nikki-Devil/LearnInfo/blob/main/Img/RDP_cred.png?raw=true)
 5. Vous êtes maintenant connecté à l'ordinateur distant
 
